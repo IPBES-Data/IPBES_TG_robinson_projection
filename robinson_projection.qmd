@@ -67,7 +67,10 @@ format:
         code-summary: 'Show the code'
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| label: setup
+#| include: false
+
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
